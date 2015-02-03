@@ -1,9 +1,11 @@
 {
-  "name": "waitfor",
+  "name": "waitfortest",
   "version": "0.0.0",
-  "description": "A waitfor test to try it",
+  "description": "A callback, waitfor and generators tests to try how to break callback hell in node",
+  "repository": "https://github.com/tomas2387/waitfor_test",
   "main": "server.js",
   "dependencies": {
+    "q": "^1.1.2",
     "redis": "~0.12.1",
     "wait.for": "~0.6.6",
     "waitfor": "~0.1.3"
